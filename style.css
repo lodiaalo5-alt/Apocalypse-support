@@ -1,0 +1,22 @@
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;background:#080000;color:#fff;font-family:Arial,sans-serif;
+background:radial-gradient(circle at 50% 30%,#690000 0,#190000 38%,#050000 75%);overflow-x:hidden}
+body:before{content:"";position:fixed;width:360px;height:360px;border-radius:50%;background:#000;left:-120px;top:260px;box-shadow:0 0 90px #d40000;z-index:-1}
+header{text-align:center;padding:28px 15px 40px;text-shadow:0 0 12px #ff1616}
+.founder{font-size:20px;color:#ff8585}.founder b{color:#fff}
+.leaders{font-size:18px;font-weight:800;color:#ff6666;margin-top:45px}
+.satoru{font-size:18px;color:#ff9a9a;margin-top:18px}
+main{padding:20px 22px 60px}
+.panel{max-width:630px;margin:auto;padding:42px 48px;border:1px solid #ff2020;border-radius:32px;
+background:rgba(25,0,0,.88);box-shadow:0 0 35px rgba(255,0,0,.28)}
+h1{font-size:34px;color:#ff4b4b;margin:0 0 38px;text-shadow:0 0 10px #ff0000}
+.label{font-size:18px;color:#ffb2b2}
+input{width:100%;height:78px;border-radius:25px;border:1px solid #ff2222;background:#130000;
+color:#fff;font-size:19px;padding:0 25px;margin:0 0 20px;outline:none}
+button{width:100%;border:1px solid #ff3b3b;border-radius:25px;background:linear-gradient(100deg,#a90000,#ff1515);
+color:#fff;padding:20px;margin:10px 0;box-shadow:0 0 20px rgba(255,0,0,.25);font-size:22px;font-weight:900}
+button small{display:block;font-size:16px;font-weight:400;margin-top:7px}
+button:active{transform:scale(.99)}
+#result{display:none;margin-top:20px;padding:16px;border-radius:15px;background:#210707;border:1px solid #8d2020;color:#ffbcbc}
+footer{text-align:center;color:#8d6565;font-size:12px;padding:0 20px 25px}
+@media(max-width:520px){.panel{padding:35px 22px}.leaders{font-size:15px}h1{font-size:30px}}
