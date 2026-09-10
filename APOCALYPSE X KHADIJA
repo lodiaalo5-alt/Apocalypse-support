@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>APOCALYPSE X KHADIJA</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #050505;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    header {
+      padding: 25px 15px;
+      border-bottom: 1px solid #333;
+    }
+
+    header h1 {
+      font-size: 26px;
+      letter-spacing: 3px;
+    }
+
+    header p {
+      color: #888;
+      margin-top: 8px;
+    }
+
+    .hero {
+      min-height: 75vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 30px 20px;
+    }
+
+    .hero h2 {
+      font-size: 42px;
+      letter-spacing: 2px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      color: #aaa;
+      font-size: 17px;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 14px 30px;
+      border: 1px solid white;
+      border-radius: 8px;
+      color: white;
+      text-decoration: none;
+    }
+
+    .button:hover {
+      background: white;
+      color: black;
+    }
+
+    section {
+      padding: 50px 20px;
+      background: #101010;
+    }
+
+    section h2 {
+      margin-bottom: 25px;
+    }
+
+    .card {
+      max-width: 600px;
+      margin: auto;
+      padding: 25px;
+      background: #181818;
+      border: 1px solid #292929;
+      border-radius: 12px;
+    }
+
+    .card p {
+      color: #aaa;
+      line-height: 1.6;
+    }
+
+    footer {
+      padding: 25px;
+      color: #666;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>APOCALYPSE X KHADIJA</h1>
+    <p>Deux âmes • Une histoire</p>
+  </header>
+
+  <div class="hero">
+    <div>
+      <h2>APOCALYPSE X KHADIJA</h2>
+
+      <p>
+        Bienvenue dans notre univers.<br>
+        Une histoire construite sur la confiance,
+        le respect et les souvenirs.
+      </p>
+
+      <a href="#histoire" class="button">ENTRER</a>
+    </div>
+  </div>
+
+  <section id="histoire">
+    <h2>NOTRE HISTOIRE</h2>
+
+    <div class="card">
+      <p>
+        APOCALYPSE X KHADIJA<br><br>
+        Une histoire unique, un lien particulier
+        et des moments qui restent gravés.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 APOCALYPSE X KHADIJA
+  </footer>
+
+</body>
+</html>
